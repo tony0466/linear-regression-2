@@ -13,8 +13,7 @@ import pandas as pd
 # Load the housing prices dataset
 data = pd.read_csv('/Real estate.csv')
 
-# Preprocessing (handle missing values, encode categorical variables, etc.)
-# For simplicity, let's assume the data is clean and numerical features only
+
 
 # Step 2: Split the Data
 from sklearn.model_selection import train_test_split
@@ -55,8 +54,3 @@ evaluate_model(dt_model, X_test, y_test)
 print("\nRandom Forest Model Performance:")
 evaluate_model(rf_model, X_test, y_test)
 
-# Step 6: Compare Performance
-# Compare metrics like MSE, MAE, and R-squared
-
-# Step 7: Conclusion
-# Based on the evaluation, determine which model is preferred for analyzing the housing prices data.
